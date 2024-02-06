@@ -42,6 +42,10 @@ public class ArraysUitleg {
         // hoog alle cijfers op met 10 (gebruik een loop)
         // print alle cijfers
 
+        // array gaat maken cijfers
+        // als het een oneven getal is, maak je het even (gebruik een if in de loop)
+        // print alle getallen (kan in dezelfde loop)
+
 
     }
 }
