@@ -115,9 +115,13 @@ public class ArraysUitleg {
 
 
         // LOOPS AND ARRAYS
+        // - loop over de arrays van booleans en print alle waardes
+        // - loop over de arrays van boeken en print alle waarden
 
         // IF AND ARRAYS
+        // - als de array van booleans een lengte groter dan 5 heeft, print de lengte. Anders print: dat zijn er niet veel
 
         // IF AND ARRAYS AND LOOPS
+        // - loop over de arrays van boeken, als de naam van een boek gelijk is aan "Harry potter deel 1" print dan "gevonden!"
     }
 }
