@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ArraysUitleg {
 
     public static void main(String[] args) {
@@ -69,6 +71,53 @@ public class ArraysUitleg {
         // en vervolgens de som van alle elementen uit die array uitrekent
         // bonus challenge: bereken ook het gemiddelde van de ints in de array met arrays
 
+        // aanloop opdrachtjes naar de hoofdstuk opdrachten
+        // tostring en equals uitleggen op arrays
 
+        String[] strs = {"honden", "katten", "hamsters", "schildpadden", "vissen", "salamanders" , "konijnen", "vogels"};
+
+        String leesbareArray = Arrays.toString(strs);
+
+        String diyLeesbareArray = "[";
+        for(int i = 0; i < strs.length; i++) {
+            diyLeesbareArray = diyLeesbareArray + strs[i];
+            if(i != strs.length - 1) {
+                diyLeesbareArray = diyLeesbareArray + ", ";
+            }
+        }
+        diyLeesbareArray = diyLeesbareArray + "]";
+        System.out.println(diyLeesbareArray);
+        System.out.println();
+
+        // zijn twee arrays hetzelfde?
+        int[] ints1 = {3, 4, 5};
+        int[] ints2 = {3, 4, 5};
+
+        if(Arrays.equals(ints1, ints2)) { // met ints1 == ints2 kijkt ie naar memory locatie ipv inhoud
+            System.out.println("Ze zijn hetzelfde!");
+        } else {
+            System.out.println("Nee, niet hetzelfde.");
+        }
+
+        // ARRAYS
+        // - maak 2 arrays aan: een van booleans {true, false, etc} en een van boeken
+
+        // LOOPS
+        // - print met behulp van een loop, de getallen tussen de 0 en de 100
+
+        // IF STATEMENTS
+        // - maak een getal x aan, en als x groter is dan 500 print dan dat het groter is dan 500
+        // - en als het groter is dan 250 maar kleiner dan 500 print dat dan
+        // - anders print dat het kleiner is dan 250
+
+        // LOOPS AND IF
+        // - print alle getallen onder de 100 die deelbaar zijn door 3 (en dat er een heel getal over blijft)
+
+
+        // LOOPS AND ARRAYS
+
+        // IF AND ARRAYS
+
+        // IF AND ARRAYS AND LOOPS
     }
 }
