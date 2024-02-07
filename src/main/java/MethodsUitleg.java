@@ -13,18 +13,27 @@ public class MethodsUitleg {
 
     public static void main(String[] args) {
         sayHiName("Jamy");
+        sayHiName("bla");
         sayHi();
         double[] doubles = {3.0, 4.0};
         double gemiddelde = calcAverage(doubles);
         System.out.println(gemiddelde);
         double som = addTwoNumbers(4.0, 6.0);
         System.out.println(som);
+        voorbeeld(false);
     }
 
     public static void sayHiName(String name) {
         System.out.println("Hi " + name);
     }
 
+    public static void voorbeeld(boolean ochtend) {
+       if(ochtend) {
+           System.out.println("gooood morning");
+       } else {
+           System.out.println("hi");
+       }
+    }
     public static void sayHi() {
         System.out.println("Hi!");
     }
@@ -32,6 +41,10 @@ public class MethodsUitleg {
     public static double addTwoNumbers(double a, double b) {
         double result = a + b;
         return result;
+    }
+
+    public static double calcAverage(double a, double b) {
+        return (a + b) / 2;
     }
 
     public static double calcAverage(double[] arr) {
