@@ -1,0 +1,18 @@
+maak een class Account aan
+maak een class AccountOwner aan
+maak een class Address
+
+Geef Account de volgende props:
+- nummer
+- type
+- AccountOwner array
+- geef Account een methode die het volgende print: nummer, type, naam en address van alle accountowners
+
+Geef AccountOwner de volgende props:
+- naam
+- emailadres
+- geef AccountOwner een (dus 1) Address
+
+In een aparte class (bijv Main) maak een main methode en:
+Maak een address, een accountowner en een account aan. Geef de props van deze instanties (objecten) een waarde.
+Roep de methode om te printen op account aan.

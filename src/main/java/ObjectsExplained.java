@@ -8,7 +8,9 @@ public class ObjectsExplained {
     // een van mijn passies is programmeren
     // een van mijn passies is zingen
     // een van mijn passies is timmeren
+
     public static void main(String[] args) {
+        int x = 45;
         Dog dog = new Dog();
         dog.name = "Alfie";
         dog.age = 2;
