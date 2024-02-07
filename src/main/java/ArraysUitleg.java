@@ -56,6 +56,14 @@ public class ArraysUitleg {
                 {8}
         };
 
+        for(int i = 0; i < arrayOfIntArrays.length; i++) {
+            String rij = "";
+            for(int j = 0; j < arrayOfIntArrays[i].length; j++) {
+                rij = rij + arrayOfIntArrays[i][j] + " --- ";
+            }
+            System.out.println(rij);
+        }
+
         arrayOfIntArrays[1][2] = 22;
 
         System.out.println(arrayOfIntArrays[2][0]);
@@ -98,6 +106,15 @@ public class ArraysUitleg {
         } else {
             System.out.println("Nee, niet hetzelfde.");
         }
+
+        int[] lingoBallen = {23, 45, 65,3, 2, 5, 7, 8, 89, 0, 5, 2};
+        int grootste = lingoBallen[0];
+        for(int i = 1; i < lingoBallen.length; i++) {
+            if(lingoBallen[i] > grootste) {
+                grootste = lingoBallen[i];
+            }
+        }
+        System.out.println("De grootste is: " + grootste);
 
         // ARRAYS
         // - maak 2 arrays aan: een van booleans {true, false, etc} en een van boeken
