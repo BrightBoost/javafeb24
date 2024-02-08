@@ -1,0 +1,11 @@
+Maak een class Shape aan
+Geef shape een kleur en een oppervlakte
+
+Maak een class Square en Circle aan
+Laat deze twee erven van Shape
+
+Maak een App class met een main methode, maak van iedere vorm eentje aan,
+Print de kleur
+
+Geef Shape een constructor die kleur en oppervlakte zet
+Los de ontstane problemen op

@@ -4,6 +4,12 @@ public class Dog {
     public int age;
     public double weight;
 
+    public Dog(String name, int age, double weight) {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+    }
+
     public void bark() {
         System.out.println("Woof says " + this.name);
     }

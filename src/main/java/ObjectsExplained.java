@@ -11,16 +11,12 @@ public class ObjectsExplained {
 
     public static void main(String[] args) {
         int x = 45;
-        Dog dog = new Dog();
-        dog.name = "Alfie";
-        dog.age = 2;
-        dog.weight = 30;
+        Dog dog = new Dog("Alfie", 2, 30);
 
         dog.bark();
 
 
-        Dog dog2 = new Dog();
-        dog2.name = "Bobbie";
+        Dog dog2 = new Dog("Bobbie", 2, 25);
 
         Dog dog3 = dog;
         dog3.name = "Max";
