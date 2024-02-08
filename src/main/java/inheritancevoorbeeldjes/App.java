@@ -26,9 +26,15 @@ public class App {
         printFurniture(c);
 
         Furniture f = new Table();
+
     }
 
     public static void printFurniture(Furniture f) {
+        if(f instanceof Table) {
+            System.out.println("Tis een tafel!");
+        } else if(f instanceof Chair) {
+            System.out.println("This een stoel!");
+        }
         System.out.println(f.getColor() + " " + f.getMeasurement().getHeight());
     }
 }
