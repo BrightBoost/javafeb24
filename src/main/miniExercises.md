@@ -89,12 +89,12 @@ We have a shop with 4 products and their prices:
 
 ## Mini Project: Collecting Words
 
-
 Create a while loop for the following:
 - Ask the user for a word.
 - Store this word in a list (use append).
 - Print the list.
 - When the user enters nothing, stop the program.
+
 ### Deduplication
 - Change the program so that, every time the user gives a word, you test whether it is already in the list. If it is, you don't add it.
 ### Lengths

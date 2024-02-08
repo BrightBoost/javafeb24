@@ -14,6 +14,8 @@ public abstract class Furniture {
 
     }
 
+    public abstract void collectDust();
+
     public String getColor() {
         return color;
     }

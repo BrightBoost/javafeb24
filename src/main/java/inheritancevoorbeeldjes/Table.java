@@ -7,6 +7,10 @@ public class Table extends Furniture {
     }
     private boolean standingDesk;
 
+    @Override
+    public void collectDust() {
+        System.out.println("Collecting dust on the table...");
+    }
     public boolean isStandingDesk() {
         return standingDesk;
     }
