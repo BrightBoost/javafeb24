@@ -1,0 +1,8 @@
+Maak een class Kan
+Geef kan een generic T
+Geef de class Kan een property van type T met label "content" en maak de getter en setter
+
+Maak een class Thee en Koffie
+Maak een class App, geef deze een main methode
+In de main method, maak een kan voor Thee en stop er een instantie van Thee in
+Doe hetzelfde voor een koffie kan.
