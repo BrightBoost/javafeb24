@@ -1,0 +1,10 @@
+## Mini Project: Shop
+
+Maak een lijst van type string genaamd producten, en initialiseer de lege lijst.
+
+Maak een loopje dat met Scanner om input van de user vraagt.
+Vraag steeds aan de user, of hij/zij nog een product toe wil voegen.
+Zo ja, lees nog een keer de input uit, en vraag weer of hij/zij een product toe wil voegen.
+Herhaal tot de user zegt dat hij geen product meer toe wil voegen.
+
+Daarna, print alles wat op de lijst staat.
